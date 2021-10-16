@@ -19,7 +19,7 @@ html {
   position: absolute;
   top: calc(50% - 17.5rem);
   left: calc(50% - 25rem);
-  transform: rotateY(10deg);
+  transform: rotateY(20deg);
   transition: transform 0.5s, left 0.5s;
 }
 .forms-wrapper.change {
