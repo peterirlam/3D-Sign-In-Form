@@ -21,9 +21,13 @@
           <h2>Already a Member?<br />Sign In</h2>
 
           <div class="inputs-wrapper">
-            <input type="text" placeholder="Your Email" />
-            <input type="password" placeholder="Password" />
-            <input type="submit" value="Sign In" />
+            <label for="email">
+              <input type="text" id="email" name="email" placeholder="Your Email" />
+            </label>
+            <label for="password">
+              <input type="password" id="password" name="password" placeholder="Password" />
+            </label>
+            <input type="submit" value="Sign In" id="signInSubmit" />
           </div>
         </form>
 
@@ -35,11 +39,19 @@
           <h2>Not Yet a Member?<br />Sign Up</h2>
 
           <div class="inputs-wrapper">
-            <input type="text" placeholder="Your Name" />
-            <input type="text" placeholder="Your Email" />
-            <input type="password" placeholder="Password" />
-            <input type="password" placeholder="Confirm Password" />
-            <input type="submit" value="Sign Up" />
+            <label for="name">
+              <input type="text" id="name" name="name" placeholder="Your Name" />
+            </label>
+            <label for="email">
+              <input type="text" id="email" name="email" placeholder="Your Email" />
+            </label>
+            <label for="password">
+              <input type="password" id="password" name="password" placeholder="Password" />
+            </label>
+            <label for="confPassword">
+              <input type="password" id="confPassword" name="confPassword" placeholder="Confirm Password" />
+            </label>
+            <input type="submit" value="Sign Up" id="signUpSubmit" />
           </div>
         </form>
         
